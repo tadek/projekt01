@@ -1,0 +1,14 @@
+body {
+    background-color: azure;
+    padding: 30px;
+}
+
+td {
+    padding: 20px;
+    background-color: beige;
+}
+
+.lista {
+    background: linear-gradient(to right, yellow, orange);
+    width: 300px;
+}

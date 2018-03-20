@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Skrypty</title>
+
+</head>
+
+<body>
+    <h1>Nagłówek strony</h1>
+    <h3>Bardziej szczegółowy opis strony ...</h3>
+    <table>
+        <tr>
+            <td>
+                <label>Imię i nazwisko</label>
+            </td>
+            <td>
+                <input type="text" id="nazwisko" placeholder="nazwisko">
+            </td>
+            <td>
+                <select id="lista" class="lista" multiple="multiple">
+                    <option value="0">Mirosław Pokora</option>
+                </select>
+            </td>
+            <td>
+                <button class="btn btn-primary" id="dopiszJs">Dopisz JS</button>
+            </td>
+            <td>
+                <button class="btn btn-primary" id="dopiszJq">Dopisz jQ</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            </td>
+            <td>
+            </td>
+            <td>
+                <input type="radio" name="rodzajProgramu" id="js"> JavaScript <br>
+                <input type="radio" name="rodzajProgramu" id="jq"> jQuery
+            </td>
+            <td>
+                <button class="btn btn-primary" onclick="dopisz()">Dopisz</button>
+            </td>
+            <td>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+<bundle>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/stylePrz01.css">
+    <script src="js/jquery-2.2.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/programPrz01.js"></script>
+</bundle>
